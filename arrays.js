@@ -24,7 +24,7 @@ function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
   return chocolateBars
 }
 function removeElementFromBeginningOfArray(chocolateBars){
-  chocolateBars.slice([0])
+  chocolateBars.slice(0)
   return chocolateBars
 }
 function destructivelyRemoveElementFromEndOfArray(chocolateBars){
@@ -32,6 +32,6 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars){
   return chocolateBars
 }
 function removeElementFromEndOfArray(chocolateBars){
-  chocolateBars.slice([0, chocolateBars.length - 1])
+  chocolateBars.slice([chocolateBars.length - 1])
   return chocolateBars
 }
