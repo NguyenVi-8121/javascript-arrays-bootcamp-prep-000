@@ -22,7 +22,7 @@ function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
 }
 function removeElementFromBeginningOfArray(chocolateBars){
   chocolateBars.slice(1)
-  return chocolateBars
+  return removeElementFromBeginningOfArray
 }
 function destructivelyRemoveElementFromEndOfArray(chocolateBars){
   chocolateBars.pop()
