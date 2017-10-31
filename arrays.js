@@ -20,11 +20,11 @@ function accessElementInArray(chocolateBars){
   console.log(chocolateBars[2])
 }
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
-  chocolateBars.shift()
+  chocolateBars.shift();
   return chocolateBars
 }
 function removeElementFromBeginningOfArray(chocolateBars){
-  chocolateBars.slice()
+  chocolateBars.slice();
   return chocolateBars
 }
 function destructivelyRemoveElementFromEndOfArray(chocolateBars){
