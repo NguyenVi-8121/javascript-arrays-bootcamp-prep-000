@@ -9,7 +9,7 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, foo){
   return chocolateBars
 }
 function addElementToEndOfArray(chocolateBars, foo){
-  const addElementToEndOfArray= [...chocolateBars,"foo"]
+  [...chocolateBars,"foo"]
   return chocolateBars
 }
 function destructivelyAddElementToEndOfArray(chocolateBars, foo){
