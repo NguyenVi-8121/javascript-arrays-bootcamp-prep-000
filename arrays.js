@@ -32,6 +32,6 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars){
   return chocolateBars
 }
 function removeElementFromEndOfArray(chocolateBars){
-  var removeElementFromEndOfArray = chocolateBars.splice(-1);
+  var removeElementFromEndOfArray = chocolateBars.splice(0,-1);
   return removeElementFromEndOfArray
 }
