@@ -26,7 +26,7 @@ function removeElementFromBeginningOfArray(chocolateBars){
 }
 function destructivelyRemoveElementFromEndOfArray(chocolateBars){
   chocolateBars.pop()
-  return destructivelyRemoveElementFromEndOfArray
+  return chocolateBars
 }
 function removeElementFromEndOfArray(chocolateBars){
   const removeElementFromEndOfArray = chocolateBars.slice(-1);
