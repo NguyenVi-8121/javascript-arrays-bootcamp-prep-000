@@ -21,7 +21,7 @@ function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
   return chocolateBars
 }
 function removeElementFromBeginningOfArray(chocolateBars){
-  chocolateBars.splice()
+  const chocolateBars = chocolateBars.splice()
   return chocolateBars
 }
 function destructivelyRemoveElementFromEndOfArray(chocolateBars){
