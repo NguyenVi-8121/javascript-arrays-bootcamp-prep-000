@@ -12,3 +12,7 @@ function addElementToEndOfArray(chocolateBars, foo){
   const addElementToEndOfArray = [...chocolateBars, "foo"]
   return addElementToEndOfArray
 }
+function destructivelyAddElementToEndOfArray(chocolateBars){
+  chocolateBars.pop()
+  return chocolateBars
+}
