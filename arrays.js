@@ -10,4 +10,5 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, foo){
 }
 function addElementToEndOfArray(chocolateBars, foo){
   const addElementToEndOfArray = [...chocolateBars, "foo"]
+  return addElementToEndOfArray
 }
