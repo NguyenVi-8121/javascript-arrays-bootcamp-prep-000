@@ -8,7 +8,7 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, foo){
   chocolateBars.unshift(foo)
   return chocolateBars
 }
-function accessElementInArray(chocolateBars, 2){
+function accessElementInArray(chocolateBars){
   chocolateBars[2];
   return accessElementInArray
 }
