@@ -3,5 +3,5 @@ function addElementToBeginningOfArray([1], 'foo'){
   return addElementToBeginningOfArray
 }
 function destructivelyAddElementToBeginningOfArray(){
-  
+
 }
