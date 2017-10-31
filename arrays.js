@@ -19,4 +19,3 @@ function destructivelyAddElementToEndOfArray(chocolateBars, foo){
 function accessElementInArray(chocolateBars, 2){
   console.log(accessElementInArray[2]);
 }
-
