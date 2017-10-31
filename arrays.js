@@ -1,4 +1,4 @@
-function addElementToBeginningOfArray(chocolateBars, 'foo'){
+function addElementToBeginningOfArray(){
   chocolateBars.unshift("foo")
   return addElementToBeginningOfArray;
 }
